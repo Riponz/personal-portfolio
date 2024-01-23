@@ -10,14 +10,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='app-head'>
       {/* components goes here */}
       <Navbar />
       <HeroText />
       <Overview />
       <SelfBanner/>
       <Banner />
-    </>
+    </div>
   )
 }
 
