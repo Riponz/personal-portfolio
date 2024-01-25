@@ -6,6 +6,7 @@ import Overview from './Components/Overview'
 import Banner from './Components/Banner'
 import SelfBanner from './Components/SelfBanner'
 import Info from './Components/Info'
+import Tagline from './Components/Tagline'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <HeroText />
       <Overview />
+      <Tagline/>
       <SelfBanner/>
       <Banner />
     </div>
