@@ -12,7 +12,6 @@ function App() {
 
   return (
     <div className='app-head'>
-      {/* components goes here */}
       <Navbar />
       <HeroText />
       <Overview />
