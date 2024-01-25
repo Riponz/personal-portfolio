@@ -1,6 +1,6 @@
 import React from 'react'
 import "./SelfBanner.css"
-import selfImg from "./../Utilities/myself/image.png"
+import selfImg from "./../Utilities/myself/image.jpg"
 
 function SelfBanner() {
     return (
