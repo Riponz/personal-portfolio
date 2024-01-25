@@ -21,7 +21,7 @@ import Marquee from 'react-fast-marquee'
 function Banner() {
     return (
         <>
-            <Marquee autoFill={true} pauseOnHover={true}>
+            <Marquee className='pt-5' autoFill={true} pauseOnHover={true}>
                 <img src={logo1} />
                 <img src={logo2} />
                 <img src={logo3} />
