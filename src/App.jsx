@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar'
 import Overview from './Components/Overview'
 import Banner from './Components/Banner'
 import SelfBanner from './Components/SelfBanner'
+import Info from './Components/Info'
 
 function App() {
   const [count, setCount] = useState(0)

@@ -7,3 +7,16 @@ img{
 .figma-logo{
     width: 45px;
 }
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .logos-slide {
+    animation: 35s slide infinite linear;
+  }
