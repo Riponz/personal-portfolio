@@ -7,6 +7,7 @@ import Banner from './Components/Banner'
 import SelfBanner from './Components/SelfBanner'
 import Info from './Components/Info'
 import Tagline from './Components/Tagline'
+import Contacts from './Components/Contacts'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,10 +16,9 @@ function App() {
     <div className='app-head'>
       <Navbar />
       <HeroText />
-      <Overview />
-      <Tagline/>
       <SelfBanner/>
       <Banner />
+      <Contacts/>
     </div>
   )
 }
