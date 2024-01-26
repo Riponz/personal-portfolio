@@ -8,4 +8,5 @@
 
 .app-head{
   background-color: rgb(16, 16, 16);
+  overflow-x: hidden;
 }
