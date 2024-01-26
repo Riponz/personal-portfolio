@@ -5,8 +5,6 @@ import Navbar from './Components/Navbar'
 import Overview from './Components/Overview'
 import Banner from './Components/Banner'
 import SelfBanner from './Components/SelfBanner'
-import Info from './Components/Info'
-import Tagline from './Components/Tagline'
 import Contacts from './Components/Contacts'
 
 function App() {
@@ -17,7 +15,7 @@ function App() {
       <Navbar />
       <HeroText />
       <SelfBanner/>
-      <Banner />
+      {/* <Banner /> */}
       <Contacts/>
     </div>
   )

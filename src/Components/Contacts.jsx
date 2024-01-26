@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 function Contacts() {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 })
+    }, [])
+
 
     const handleSendMessage = () => {
         e.preventDefault();
@@ -9,34 +16,34 @@ function Contacts() {
 
     return (
         <>
-            <div id='contact' className="contact h-[50rem] flex flex-col justify-center items-center w-full py-3">
-
-                <div className="p-5 flex justify-evenly items-center w-[80%] h-[35rem] form">
-                    <form className="flex flex-col p-3 bg-[#BCB5A8] text-[#101010] rounded-2xl placeholder-[#101010] w-[40%]" action="">
+        <div id="contact" data-aos="fade-right" className="heading md:pt-[5rem] md:text-4xl text-[7rem] w-full flex justify-center items-center pt-9 font-bold">WANT TO CONTACT?</div>
+            <div className="contact h-[45rem] md:h-[35rem] flex flex-col justify-center items-center w-full">
+                <div data-aos="fade-right" className="flex md:flex-col justify-evenly items-center w-[80%] md:h-fit h-[50rem] form">
+                <form className="flex flex-col p-3 bg-[#BCB5A8] text-[#101010] rounded-2xl placeholder-[#101010] md:w-[100%] w-[40%]" action="">
                         <input className='border-b-2 border-[#101010] outline-none bg-transparent m-2 p-2 placeholder-[#101010]' placeholder="name" type="text" name="" id="" />
                         <input className='phoneNumber border-b-2 border-[#101010] outline-none bg-transparent m-2 p-2 placeholder-[#101010]' placeholder="phone no." type="number" name="" id="" />
                         <input className='email border-b-2 bg-transparent border-[#101010] outline-none m-2 p-2 placeholder-[#101010]' placeholder="email" type="email" name="" id="" />
-                        <textarea className='m-2 p-2 bg-transparent rounded-lg border-[#101010] outline-none placeholder-[#101010]' placeholder="write your message!!!" name="" id="" cols="30" rows="10"></textarea>
+                        <textarea className='m-2 p-2 bg-transparent rounded-lg border-[#101010] outline-none placeholder-[#101010]' placeholder="write your message!!!" name="" id="" cols="30" rows="5"></textarea>
                         <button onClick={handleSendMessage} className='bg-red-600 rounded-lg m-2 p-2' type="submit">SEND!</button>
                     </form>
-                    <div onClick={handleSendMessage} className="text-3xl">would love to hear from <span className='text-red-600'>you</span>!!!</div>
+                    <div data-aos="fade-left" onClick={handleSendMessage} className="md:hidden text-2xl font-bold">would love to hear from <span className='text-red-600'> you</span>!!!</div>
                 </div>
             </div>
-            <div className="socials w-full h-fit flex justify-evenly items-center">
-                <div className="insta flex justify-center items-center h-[5rem] flex-auto bg-[#d62976]">
+            <div className="socials w-full h-fit flex md:flex-col justify-evenly items-center">
+                <div className="insta md:w-full flex justify-center items-center h-[5rem] flex-auto bg-[#d62976]">
                     Instagram
                 </div>
-                <div className="github flex justify-center items-center h-[5rem] flex-auto bg-black">
+                <div className="github flex md:w-full justify-center items-center h-[5rem] flex-auto bg-black">
                     Github
                 </div>
-                <div className="linkedin flex justify-center items-center h-[5rem] flex-auto bg-blue-900">
+                <div className="linkedin flex md:w-full justify-center items-center h-[5rem] flex-auto bg-blue-900">
                     LinkedIn
                 </div>
-                <div className="twitter flex justify-center items-center h-[5rem] flex-auto bg-blue-400">
+                <div className="twitter flex md:w-full justify-center items-center h-[5rem] flex-auto bg-blue-400">
                     Twitter
                 </div>
             </div>
-            <div className="credits w-full h-[4rem] flex justify-evenly items-center">
+            <div className="credits md:p-5 w-full md:h-[6rem] h-[4rem] flex md:flex-col justify-evenly md:justify-between items-center">
                 <div className="year">Diganta 2024 , Built by me 🧡</div>
                 <div className="email">biswasdiganta2001@gmail.com</div>
             </div>
