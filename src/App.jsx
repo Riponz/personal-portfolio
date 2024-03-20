@@ -9,6 +9,8 @@ import Projects from './Components/Projects'
 
 function App() {
   const [count, setCount] = useState(0)
+  // console.log(process.env.REACT_APP_SERVICE_ID)
+  
 
   return (
     <div className='app-head'>

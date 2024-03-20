@@ -22,8 +22,8 @@ function Projects() {
                     <div className="img bg-red-600 flex justify-center items-center overflow-hidden"><img className='w-[30rem]' src={cointrac} alt="cointrac" /></div>
                     <div className="texts h-[6rem] flex flex-col justify-center items-center">
                         <div className="title text-2xl">cointrac</div>
-                        <button onClick={() => window.open("https://cointrac.vercel.app", '_blank')} class="m-3 p-1 rounded-full from-red-400 via-red-600 to-red-800 bg-gradient-to-r">
-                            <span class="block text-black px-3 py-1 font-semibold rounded-full bg-[#BCB5A8] hover:bg-transparent hover:text-[#BCB5A8] transition">View Live</span>
+                        <button onClick={() => window.open("https://cointrac.vercel.app", '_blank')} className="m-3 p-1 rounded-full from-red-400 via-red-600 to-red-800 bg-gradient-to-r">
+                            <span className="block text-black px-3 py-1 font-semibold rounded-full bg-[#BCB5A8] hover:bg-transparent hover:text-[#BCB5A8] transition">View Live</span>
                         </button>
                     </div>
                 </div>
@@ -35,8 +35,8 @@ function Projects() {
                     <div className="img bg-red-600 flex justify-center items-center overflow-hidden"><img className='w-[30rem]' src={confessionity} alt="cointrac" /></div>
                     <div className="texts h-[6rem] flex flex-col justify-center items-center">
                         <div className="title text-2xl">confessionity</div>
-                        <button onClick={() => window.open("https://confessionity.web.app", '_blank')} class="m-3 p-1 rounded-full from-red-400 via-red-600 to-red-800 bg-gradient-to-r">
-                            <span class="block text-black px-3 py-1 font-semibold rounded-full bg-[#BCB5A8] hover:bg-transparent hover:text-[#BCB5A8] transition">View Live</span>
+                        <button onClick={() => window.open("https://confessionity.web.app", '_blank')} className="m-3 p-1 rounded-full from-red-400 via-red-600 to-red-800 bg-gradient-to-r">
+                            <span className="block text-black px-3 py-1 font-semibold rounded-full bg-[#BCB5A8] hover:bg-transparent hover:text-[#BCB5A8] transition">View Live</span>
                         </button>
                     </div>
                 </div>
@@ -47,8 +47,8 @@ function Projects() {
                     <div className="img bg-red-600 flex justify-center items-center overflow-hidden"><img className='w-[30rem]' src={COV19} alt="cointrac" /></div>
                     <div className="texts h-[6rem] flex flex-col justify-center items-center">
                         <div className="title text-2xl">COV19</div>
-                        <button onClick={() => window.open("https://covid-19-tracker-c8b49.web.app", '_blank')} class="m-3 p-1 rounded-full from-red-400 via-red-600 to-red-800 bg-gradient-to-r">
-                            <span class="block text-black px-3 py-1 font-semibold rounded-full bg-[#BCB5A8] hover:bg-transparent hover:text-[#BCB5A8] transition">View Live</span>
+                        <button onClick={() => window.open("https://covid-19-tracker-c8b49.web.app", '_blank')} className="m-3 p-1 rounded-full from-red-400 via-red-600 to-red-800 bg-gradient-to-r">
+                            <span className="block text-black px-3 py-1 font-semibold rounded-full bg-[#BCB5A8] hover:bg-transparent hover:text-[#BCB5A8] transition">View Live</span>
                         </button>
                     </div>
                 </div>
@@ -64,8 +64,8 @@ function Projects() {
                 <div className="con h-[25rem] w-full flex flex-col justify-center items-start border-l-2">
                     <div data-aos="fade-up" className="title text-6xl px-8">cointrac</div>
                     <div data-aos="fade-up" className="button px-5">
-                        <button onClick={() => window.open("https://cointrac.vercel.app", '_blank')} class="m-4 p-1 rounded-full from-red-400 via-red-600 to-red-800 bg-gradient-to-r">
-                            <span class="block text-black px-4 py-2 font-semibold rounded-full bg-[#BCB5A8] hover:bg-transparent hover:text-[#BCB5A8] transition">View Live</span>
+                        <button onClick={() => window.open("https://cointrac.vercel.app", '_blank')} className="m-4 p-1 rounded-full from-red-400 via-red-600 to-red-800 bg-gradient-to-r">
+                            <span className="block text-black px-4 py-2 font-semibold rounded-full bg-[#BCB5A8] hover:bg-transparent hover:text-[#BCB5A8] transition">View Live</span>
                         </button>
                     </div>
                 </div>
@@ -76,8 +76,8 @@ function Projects() {
                 <div className="con h-[25rem] w-full border-r-2 flex flex-col justify-center items-end">
                     <div data-aos="fade-up" className="title text-6xl px-8">confessionity</div>
                     <div data-aos="fade-up" className="button px-5">
-                        <button onClick={() => window.open("https://confessionity.web.app", '_blank')} class="m-4 p-1 rounded-full from-red-400 via-red-600 to-red-800 bg-gradient-to-r">
-                            <span class="block text-black px-4 py-2 font-semibold rounded-full bg-[#BCB5A8] hover:bg-transparent hover:text-[#BCB5A8] transition">View Live</span>
+                        <button onClick={() => window.open("https://confessionity.web.app", '_blank')} className="m-4 p-1 rounded-full from-red-400 via-red-600 to-red-800 bg-gradient-to-r">
+                            <span className="block text-black px-4 py-2 font-semibold rounded-full bg-[#BCB5A8] hover:bg-transparent hover:text-[#BCB5A8] transition">View Live</span>
                         </button>
                     </div>
                 </div>
@@ -94,8 +94,8 @@ function Projects() {
                 <div className="con h-[25rem] w-full border-l-2 flex flex-col justify-center items-start">
                     <div data-aos="fade-up" className="title text-6xl px-8">COV19</div>
                     <div data-aos="fade-up" className="button px-5">
-                        <button onClick={() => window.open("https://covid-19-tracker-c8b49.web.app", '_blank')} class="m-4 p-1 rounded-full from-red-400 via-red-600 to-red-800 bg-gradient-to-r">
-                            <span class="block text-black px-4 py-2 font-semibold rounded-full bg-[#BCB5A8] hover:bg-transparent hover:text-[#BCB5A8] transition">View Live</span>
+                        <button onClick={() => window.open("https://covid-19-tracker-c8b49.web.app", '_blank')} className="m-4 p-1 rounded-full from-red-400 via-red-600 to-red-800 bg-gradient-to-r">
+                            <span className="block text-black px-4 py-2 font-semibold rounded-full bg-[#BCB5A8] hover:bg-transparent hover:text-[#BCB5A8] transition">View Live</span>
                         </button>
                     </div>
                 </div>
