@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react'
 import cointrac from "../Utilities/screens/cointrac.png"
 import confessionity from "../Utilities/screens/confessionity.png"
-import COV19 from "../Utilities/screens/COV19.png"
+import chronicKidney from "../Utilities/screens/chronicKidney.png"
 import AOS from "aos"
+import CardPro from './CardPro'
 
 function Projects() {
 
@@ -12,12 +13,20 @@ function Projects() {
 
     return (
         <>
-            <div id="projects" data-aos="fade-right" className="heading md:pt-[5rem] md:text-4xl text-[7rem] w-full flex justify-center items-center pt-9 font-bold">PROJECTS</div>
+            <div className='flex h-max w-full flex-col justify-evenly items-center'>
+                <div id="projects" data-aos="fade-right" className="heading w-full flex justify-center mb-3 items-center pt-9 font-bold text-[4rem] md:text-[5rem] lg:[7rem] xl:text-[7.5rem]">PROJECTS</div>
+                <div className='flex flex-col lg:flex-row w-full justify-evenly items-center'> 
+                    <CardPro img={cointrac} title="CoinBase" url="https://github.com/" />
+                    <CardPro img={chronicKidney} title="Chronic Kidney Prediction" url="https://github.com/" />
+                    <CardPro img={confessionity} title="confessionity" url="https://confessionity.web.app" />
+                </div>
+            </div>
+            {/* <div id="projects" data-aos="fade-right" className="heading text-[7rem] w-full flex justify-center items-center pt-9 font-bold">PROJECTS</div>
 
 
             {/* mobile projects section */}
 
-            <div data-aos="fade-up" className='flex my-10 hidden md:flex justify-center items-center'>
+            {/* <div data-aos="fade-up" className='flex my-10 hidden justify-center items-center'>
                 <div className="mob-project bg-[#262626] w-[20rem] rounded-xl overflow-hidden">
                     <div className="img bg-red-600 flex justify-center items-center overflow-hidden"><img className='w-[30rem]' src={cointrac} alt="cointrac" /></div>
                     <div className="texts h-[6rem] flex flex-col justify-center items-center">
@@ -27,10 +36,8 @@ function Projects() {
                         </button>
                     </div>
                 </div>
-            </div>
-
-
-            <div data-aos="fade-up" className='flex my-10 hidden md:flex justify-center items-center'>
+            </div> */}
+            {/* <div data-aos="fade-up" className='flex my-10 hidden justify-center items-center'>
                 <div className="mob-project bg-[#262626] w-[20rem] rounded-xl overflow-hidden">
                     <div className="img bg-red-600 flex justify-center items-center overflow-hidden"><img className='w-[30rem]' src={confessionity} alt="cointrac" /></div>
                     <div className="texts h-[6rem] flex flex-col justify-center items-center">
@@ -40,9 +47,8 @@ function Projects() {
                         </button>
                     </div>
                 </div>
-            </div>
-
-            <div data-aos="fade-up" className='flex my-10 hidden md:flex justify-center items-center'>
+            </div> */}
+            {/* <div data-aos="fade-up" className='flex my-10 hidden justify-center items-center'>
                 <div className="mob-project bg-[#262626] w-[20rem] rounded-xl overflow-hidden">
                     <div className="img bg-red-600 flex justify-center items-center overflow-hidden"><img className='w-[30rem]' src={COV19} alt="cointrac" /></div>
                     <div className="texts h-[6rem] flex flex-col justify-center items-center">
@@ -52,12 +58,12 @@ function Projects() {
                         </button>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
 
 
-            <div className="projects w-full md:hidden flex flex-1 justify-center items-center">
+            {/* <div className="projects w-full flex flex-1 justify-center items-center">
                 <div className="con h-[25rem] w-full border-r-2 flex items-center justify-end">
                     <img data-aos="fade-up" className='w-[40rem] object-contain' src={cointrac} alt="cointrac" />
                 </div>
@@ -69,10 +75,10 @@ function Projects() {
                         </button>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
-            <div className="projects  w-full md:hidden flex flex-1 justify-center items-center">
+            {/* <div className="projects  w-full flex flex-1 justify-center items-center">
                 <div className="con h-[25rem] w-full border-r-2 flex flex-col justify-center items-end">
                     <div data-aos="fade-up" className="title text-6xl px-8">confessionity</div>
                     <div data-aos="fade-up" className="button px-5">
@@ -84,10 +90,10 @@ function Projects() {
                 <div className="con h-[25rem] w-full border-l-2 flex items-center justify-start">
                     <img data-aos="fade-up" className='w-[40rem] object-contain' src={confessionity} alt="confessionity" />
                 </div>
-            </div>
+            </div> */}
 
 
-            <div className="projects  w-full md:hidden flex flex-1 justify-center items-center">
+            {/* <div className="projects  w-full flex flex-1 justify-center items-center">
                 <div className="con h-[25rem] w-full border-r-2 flex items-center justify-end">
                     <img data-aos="fade-up" className='w-[40rem] object-contain' src={COV19} alt="cointrac" />
                 </div>
@@ -99,7 +105,7 @@ function Projects() {
                         </button>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
