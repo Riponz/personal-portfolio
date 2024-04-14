@@ -16,9 +16,9 @@ function Projects() {
             <div className='flex h-max w-full flex-col justify-evenly items-center'>
                 <div id="projects" data-aos="fade-right" className="heading w-full flex justify-center mb-3 items-center pt-9 font-bold text-[4rem] md:text-[5rem] lg:[7rem] xl:text-[7.5rem]">PROJECTS</div>
                 <div className='flex flex-col lg:flex-row w-full justify-evenly items-center'> 
-                    <CardPro img={cointrac} title="CoinBase" url="https://github.com/" />
-                    <CardPro img={chronicKidney} title="Chronic Kidney Prediction" url="https://github.com/" />
-                    <CardPro img={confessionity} title="confessionity" url="https://confessionity.web.app" />
+                    <CardPro img={cointrac} title="CoinBase" url="https://cointrac.vercel.app/" desc="Track crypto history easily with our intuitive web app for informed investments"/>
+                    <CardPro img={chronicKidney} title="Chronic Kidney Prediction" url="https://chronickidneypredict.vercel.app/" desc="A web platform for early detection and monitoring of kidney health"/>
+                    <CardPro img={confessionity} title="confessionity" url="https://confessionity.web.app"  desc="An anonymous social website where users share secrets, stories, and connect without judgment."/>
                 </div>
             </div>
             {/* <div id="projects" data-aos="fade-right" className="heading text-[7rem] w-full flex justify-center items-center pt-9 font-bold">PROJECTS</div>

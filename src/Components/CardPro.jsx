@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import AOS from "aos"
 import "aos/dist/aos.css"
 
-function CardPro({ img, title, url }) {
+function CardPro({ img, title, url, desc }) {
     
     useEffect(() => {
         AOS.init({ duration: 2000 })
@@ -19,7 +19,7 @@ function CardPro({ img, title, url }) {
                 </div>
                 <div className='flex flex-col border-t-2 border-black justify-center items-start h-max p-3 px-5 '>
                     <div className='title font-bold text-black my-1'>{title}</div>
-                    <div className='desc text-slate-900 my-1'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, sapiente! </div>
+                    <div className='desc text-slate-900 my-1'>{desc}</div>
                     <div className='button my-1 p-1 text-blue-600 cursor-pointer hover:font-bold duration-700'> <a href={url} target="_blank" rel="noopener noreferrer">VISIT</a></div>
                 </div>
             </div>
