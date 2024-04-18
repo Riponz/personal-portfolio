@@ -29,22 +29,22 @@ function Skills() {
         <div className='my-10'>
             <div id="projects" data-aos="fade-right" className="heading w-full flex justify-center mb-3 items-center pt-9 font-bold text-[4rem] md:text-[5rem] lg:[7rem] xl:text-[7.5rem]">SKILLS</div>
             <section className="skills flex flex-wrap mt-8 h-max justify-evenly items-center">
-                <SkillCard name="NodeJS" img={logo1} />
-                <SkillCard name="NodeJS" img={logo2} />
-                <SkillCard name="NodeJS" img={logo3} />
-                <SkillCard name="NodeJS" img={logo4} />
-                <SkillCard name="NodeJS" img={logo5} />
-                <SkillCard name="NodeJS" img={logo6} />
-                <SkillCard name="NodeJS" img={logo7} />
-                <SkillCard name="NodeJS" img={logo8} />
-                <SkillCard name="NodeJS" img={logo9} />
-                <SkillCard name="NodeJS" img={logo10} />
+                <SkillCard name="C++" img={logo2} />
+                <SkillCard name="Express" img={logo3} />
+                <SkillCard name="Figma" img={logo4} />
+                <SkillCard name="Firebase" img={logo5} />
+                <SkillCard name="Git" img={logo6} />
+                <SkillCard name="React" img={logo7} />
+                <SkillCard name="JavaScript" img={logo8} />
+                <SkillCard name="MongoDB" img={logo9} />
+                <SkillCard name="HTML" img={logo14} />
+                <SkillCard name="CSS" img={logo1} />
+                <SkillCard name="MySQL" img={logo10} />
                 <SkillCard name="NodeJS" img={logo11} />
-                <SkillCard name="NodeJS" img={logo12} />
-                <SkillCard name="NodeJS" img={logo13} />
-                <SkillCard name="NodeJS" img={logo14} />
-                <SkillCard name="NodeJS" img={logo15} />
-                <SkillCard name="NodeJS" img={logo16} />
+                <SkillCard name="Postman" img={logo12} />
+                <SkillCard name="Python" img={logo13} />
+                <SkillCard name="Redux" img={logo15} />
+                <SkillCard name="Tailwind" img={logo16} />
             </section>
             </div>
         </>
