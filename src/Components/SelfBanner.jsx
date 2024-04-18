@@ -11,7 +11,7 @@ function SelfBanner() {
     
     return (
         <>
-        <div id="info" className="banner pt-[4rem] overflow-hidden"><Banner/></div>
+        {/* <div id="info" className="banner pt-[4rem] overflow-hidden"><Banner/></div> */}
             <div className="main mt-8 flex  justify-center items-center overflow-hidden w-full h-max py-10 flex-col lg:flex-row ">
             <img data-aos="fade-right" className='self relative aspect-square rounded-[50%] z-[0] grayscale w-[50%] md:w-[28%] lg:w-[22%] mb-7 lg:mb-0' src={selfImg} alt="" />
                 <div data-aos="fade-left" className="details w-[18rem] lg:w-[30rem] xl:w-[35rem] overflow-hidden h-fit flex flex-col justify-center items-start ml-[10px] ">

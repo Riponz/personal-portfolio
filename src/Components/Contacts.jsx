@@ -53,10 +53,10 @@ function Contacts() {
                 </div>
             </div>
             <div className="socials text-xs sm:text-base w-full font-inter font-[900] flex justify-center items-center">
-                <div className='mx-4 text-[#d62976] lg:text-[#747474] cursor-pointer hover:text-[#d62976]'>INSTAGRAM</div>
-                <div className='mx-4 text-blue-700 lg:text-[#747474] cursor-pointer hover:text-blue-700'>LINKEDIN</div>
-                <div className='mx-4 text-slate-100 lg:text-[#747474] cursor-pointer hover:text-slate-100'>GITHUB</div>
-                <div className='mx-4 text-blue-400 lg:text-[#747474] cursor-pointer hover:text-blue-400'>TWITTER</div>
+                <div className='mx-4 text-[#d62976] lg:text-[#747474] cursor-pointer hover:text-[#d62976]'><a href="https://www.instagram.com/diganta.js" target='_blank'>INSTAGRAM</a></div>
+                <div className='mx-4 text-blue-700 lg:text-[#747474] cursor-pointer hover:text-blue-700'><a href="https://www.linkedin.com/in/biswasdiganta" target='_blank'>LINKEDIN</a></div>
+                <div className='mx-4 text-slate-100 lg:text-[#747474] cursor-pointer hover:text-slate-100'><a href="https://www.github.com/Riponz" target='_blank'>GITHUB</a></div>
+                <div className='mx-4 text-blue-400 lg:text-[#747474] cursor-pointer hover:text-blue-400'><a href="https://www.twitter.com/imdigantabiswas" target='_blank'>TWITTER</a></div>
             </div>
 
 

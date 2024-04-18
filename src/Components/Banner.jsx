@@ -3,7 +3,7 @@ import "./Banner.css"
 import logo1 from './../Utilities/logos/css.png'
 import logo2 from './../Utilities/logos/cpp.png'
 import logo3 from './../Utilities/logos/express.png'
-import logo4 from './../Utilities/logos/figma.png'
+import logo4 from './../Utilities/logos/figma.webp'
 import logo5 from './../Utilities/logos/firebase.png'
 import logo6 from './../Utilities/logos/git.png'
 import logo7 from './../Utilities/logos/react.png'
