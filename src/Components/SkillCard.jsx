@@ -1,5 +1,4 @@
 import React from 'react'
-import node from "./../Utilities/logos/nodejs.png"
 
 function SkillCard({ name, img }) {
     return (

@@ -27,7 +27,7 @@ function Skills() {
     return (
         <>
         <div className='my-10'>
-            <div id="projects" data-aos="fade-right" className="heading w-full flex justify-center mb-3 items-center pt-9 font-bold text-[4rem] md:text-[5rem] lg:[7rem] xl:text-[7.5rem]">SKILLS</div>
+            <div id="skills" data-aos="fade-right" className="heading w-full flex justify-center mb-3 items-center pt-9 font-bold text-[4rem] md:text-[5rem] lg:[7rem] xl:text-[7.5rem]">SKILLS</div>
             <section className="skills flex flex-wrap mt-8 h-max justify-evenly items-center">
                 <SkillCard name="C++" img={logo2} />
                 <SkillCard name="Express" img={logo3} />
