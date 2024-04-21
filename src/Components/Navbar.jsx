@@ -26,6 +26,7 @@ function Navbar() {
             <div className={`bg-[#101010] w-full z-[9] h-[100vh] flex flex-col justify-center items-center fixed transition-all top-0 duration-900 ease-in ${open? "top-0" : "top-[-1000px]"} `}>
                 <a className='text-4xl my-2' onClick={() => {setOpen(!open)}} href="#home">Home</a>
                 <a className='text-4xl my-2' onClick={() => {setOpen(!open)}} href="#info">Info</a>
+                <a className='text-4xl my-2' onClick={() => {setOpen(!open)}} href="#skills">Skills</a>
                 <a className='text-4xl my-2' onClick={() => {setOpen(!open)}} href="#projects">Projects</a>
                 <a className='text-4xl my-2' onClick={() => {setOpen(!open)}} href="#contact">Contact</a>
             </div>
