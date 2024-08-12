@@ -24,4 +24,4 @@
 
 ## Video
 
-[![](./src/Utilities/readme%20files/portfolio-screen-capture.webm)]
+<video src="./src/Utilities/readme files/portfolio-screen-capture.webm" width="320" height="240" controls></video>
