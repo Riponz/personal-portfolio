@@ -21,7 +21,3 @@
 ![screenshot](./src/Utilities/readme%20files/portfolio%204.png)
 
 ![screenshot](./src/Utilities/readme%20files/portfolio%205.png)
-
-## Video
-
-<video src="./src/Utilities/readme files/portfolio-screen-capture.webm" width="320" height="240" controls></video>
