@@ -18,7 +18,7 @@ function Projects() {
                 <div className='flex flex-col lg:flex-row w-full justify-evenly items-center'> 
                     <CardPro img={cointrac} title="CoinBase" url="https://cointrac.vercel.app/" desc="Track crypto history easily with our intuitive web app for informed investments" tags={["React", "Material UI" ]}/>
                     <CardPro img={chronicKidney} title="Chronic Kidney Prediction" url="https://chronickidneypredict.vercel.app/" desc="A web platform for early detection and monitoring of kidney health" tags={["React","Python", "ML", "ScikitLearn"]}/>
-                    <CardPro img={confessionity} title="confessionity" url="https://confessionity.web.app"  desc="An anonymous social website where users share secrets, stories, and connect without judgment." tags={["MongoDB", "Express", "React", "NodeJS"]}/>
+                    <CardPro img={confessionity} title="confessionity" url="https://confessionity.vercel.app"  desc="An anonymous social website where users share secrets, stories, and connect without judgment." tags={["MongoDB", "Express", "React", "NodeJS"]}/>
                 </div>
             </div>
             {/* <div id="projects" data-aos="fade-right" className="heading text-[7rem] w-full flex justify-center items-center pt-9 font-bold">PROJECTS</div>
