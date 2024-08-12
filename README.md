@@ -1,8 +1,22 @@
-# React + Vite
+<h1 align="center">
+  <br>
+  <a href="https://digantabiswas.online"><img src="./src/Utilities/readme files/logo-portfolio.png" alt="Confessionity" width="200"></a>
+  <br>
+  Portfolio
+  <br>
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h4 align="center">My Personal Portfolio</h4>
 
-Currently, two official plugins are available:
+##Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![screenshot](./src/Utilities/readme%20files/portfolio%201.png)
+
+![screenshot](./src/Utilities/readme%20files/portfolio%202.png)
+
+![screenshot](./src/Utilities/readme%20files/portfolio%203.png)
+
+![screenshot](./src/Utilities/readme%20files/portfolio%204.png)
+
+![screenshot](./src/Utilities/readme%20files/portfolio%205.png)
+
